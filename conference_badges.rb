@@ -19,6 +19,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  list = assign_rooms(attendees)
-  list.each {|attendee| puts attendee}
+
 end
