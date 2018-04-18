@@ -20,5 +20,5 @@ end
 
 def printer(attendees)
   list = assign_rooms(attendees)
-  list.each {|attendee|}
+  list.each {|attendee| puts attendee}
 end
